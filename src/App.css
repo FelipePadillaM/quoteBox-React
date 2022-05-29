@@ -1,0 +1,51 @@
+body{
+  margin: 0;
+}
+
+h2{
+  margin: 0;
+}
+
+
+.App{
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.quoteBox{
+  background-color: white;
+  padding: 20px;
+  width: min(500px, 100%);
+  border-radius: 10px;
+  box-shadow: 1px 1px 10px 0 #000a;
+}
+.quoteBox__rigth{
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  flex-direction: column;
+}
+.quoteBox__rigth button{
+  display: block;
+  width: 40px;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  border: none;
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
+  box-shadow: 1px 1px 5px 0 #000a;
+}
+.quoteBox__rigth button:active{
+  box-shadow: 0 0 0 0 #000a;
+  transition: box-shadow 200ms ease;
+}
+.quoteBox__quote{
+  display: flex;
+  gap: 10px;
+}
+.bxs-quote-left{
+  font-size: 2rem;
+}
